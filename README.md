@@ -76,9 +76,9 @@ Aqui está o trecho formatado e corrigido em Markdown, corrigindo os links dentr
 
 Gostou do projeto ou quer trocar uma ideia? Entre em contato comigo:
 
-* **LinkedIn:** [linkedin.com/in/seu-perfil](https://www.google.com/search?q=https://linkedin.com/in/seu-perfil)
-* **E-mail:** [seu.email@exemplo.com](https://www.google.com/search?q=mailto%3Aseu.email%40exemplo.com)
-* **Portfólio Online:** [link-do-seu-site.vercel.app](https://www.google.com/search?q=https://link-do-seu-site.vercel.app)
+* **LinkedIn:** [linkedin.com/in/lucastameirao](https://www.linkedin.com/in/lucastameirao/)
+* **E-mail:** lucas.atmartins@gmail.com
+* **Portfólio Online:** [acesso ao site do meu portfolio](https://www.google.com/search?q=https://link-do-seu-site.vercel.app)
 
 ---
 
