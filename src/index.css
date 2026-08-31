@@ -73,6 +73,33 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
+/* Page / Modal Transition Animations (Apenas Fade suave, SEM movimentação vertical translateY) */
+@keyframes pageEnter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pageExit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-pageEnter {
+  animation: pageEnter 0.2s ease-out forwards;
+}
+
+.animate-pageExit {
+  animation: pageExit 0.15s ease-in forwards;
+}
+
 /* Keyframes for Fluid Gradient Animation */
 @keyframes fluid-1 {
   0%, 100% {

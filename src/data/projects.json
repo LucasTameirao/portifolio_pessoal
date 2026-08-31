@@ -1,0 +1,164 @@
+[
+  {
+    "id": "portifolio-pessoal",
+    "title": "Portfólio Pessoal",
+    "tagline": "Interface Web Interativa & Fluida",
+    "polaroidImage": "/wireframe/Home.png",
+    "bannerImage": "/wireframe/Home.png",
+    "shortDescription": "Aplicação web moderna desenvolvida em React, TypeScript e Tailwind CSS com estética de gradiente fluido animado e navegação em página única.",
+    "contextAndChallenge": "O objetivo principal deste projeto foi construir uma presença digital única e envolvente para Lucas Tameirão. O desafio consistiu em implementar animações orgânicas fluidas a 60 FPS aceleradas por GPU, mantendo o código modular, acessível e 100% tipado com TypeScript.",
+    "technologies": [
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Vite",
+      "Lucide Icons",
+      "Dev Containers"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao/portifolio_pessoal",
+    "liveUrl": "https://github.com/LucasTameirao/portifolio_pessoal",
+    "carouselImages": [
+      {
+        "url": "/wireframe/Home.png",
+        "caption": "Tela Inicial com Gradiente Fluido e Apresentação"
+      },
+      {
+        "url": "/wireframe/Projects.png",
+        "caption": "Grid de Projetos no formato Polaroid"
+      },
+      {
+        "url": "/wireframe/Project detailed.png",
+        "caption": "Menu Rápido de Pré-visualização do Projeto"
+      },
+      {
+        "url": "/wireframe/Project's details.png",
+        "caption": "Página Completa de Detalhes e Carrossel"
+      }
+    ]
+  },
+  {
+    "id": "gestao-tarefas",
+    "title": "TaskFlow Manager",
+    "tagline": "Sistema de Gestão & Produtividade",
+    "polaroidImage": "/wireframe/Projects.png",
+    "bannerImage": "/wireframe/Projects.png",
+    "shortDescription": "Plataforma completa de produtividade para gerenciamento de sprints, tarefas em equipe e métricas de desempenho em tempo real.",
+    "contextAndChallenge": "Criar uma interface rápida com arrastar-e-soltar (drag-and-drop), sincronização de dados instantânea e relatórios gráficos de entregas e prazos.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao",
+    "liveUrl": "https://github.com/LucasTameirao",
+    "carouselImages": [
+      {
+        "url": "/wireframe/Projects.png",
+        "caption": "Painel Kanban de Tarefas"
+      },
+      {
+        "url": "/wireframe/Project's details.png",
+        "caption": "Dashboard com Métricas de Produtividade"
+      }
+    ]
+  },
+  {
+    "id": "ecommerce-dashboard",
+    "title": "Analytics Dashboard",
+    "tagline": "Painel Analítico de Vendas",
+    "polaroidImage": "/wireframe/Project detailed.png",
+    "bannerImage": "/wireframe/Project detailed.png",
+    "shortDescription": "Dashboard financeiro e operacional com gráficos interativos, controle de inventário e emissão de relatórios.",
+    "contextAndChallenge": "O desafio foi processar grandes volumes de transações no front-end de forma responsiva e com renderização de gráficos em tempo real.",
+    "technologies": [
+      "React",
+      "Chart.js",
+      "TypeScript",
+      "REST APIs",
+      "CSS3"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao",
+    "liveUrl": "https://github.com/LucasTameirao",
+    "carouselImages": [
+      {
+        "url": "/wireframe/Project detailed.png",
+        "caption": "Visão Geral de Faturamento e Vendas"
+      }
+    ]
+  },
+  {
+    "id": "api-gateway-service",
+    "title": "Cloud API Microservice",
+    "tagline": "Arquitetura Back-end Escalável",
+    "polaroidImage": "/wireframe/Project's details.png",
+    "bannerImage": "/wireframe/Project's details.png",
+    "shortDescription": "Microsserviço de autenticação e roteamento de APIs com cache distribuído em Redis e alta tolerância a falhas.",
+    "contextAndChallenge": "Implementar políticas de Rate Limiting, autenticação via JWT e logs estruturados em ambientes de alta concorrência.",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Redis",
+      "Docker",
+      "TypeScript"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao",
+    "liveUrl": "https://github.com/LucasTameirao",
+    "carouselImages": [
+      {
+        "url": "/wireframe/Project's details.png",
+        "caption": "Monitoramento de Rotas e Latência"
+      }
+    ]
+  },
+  {
+    "id": "mobile-fintech-app",
+    "title": "FinTech Wallet",
+    "tagline": "Carteira Digital & Pagamentos",
+    "polaroidImage": "/wireframe/Contact.png",
+    "bannerImage": "/wireframe/Contact.png",
+    "shortDescription": "Interface focada em experiência do usuário para transferências instantâneas, categorização de gastos e cartões virtuais.",
+    "contextAndChallenge": "Garantir acessibilidade, fluxos simplificados com poucas etapas e animações intuitivas para feedback financeiro.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Figma",
+      "State Management"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao",
+    "liveUrl": "https://github.com/LucasTameirao",
+    "carouselImages": [
+      {
+        "url": "/wireframe/Contact.png",
+        "caption": "Extrato Inteligente e Transferências"
+      }
+    ]
+  },
+  {
+    "id": "dev-community-hub",
+    "title": "Dev Community Hub",
+    "tagline": "Rede de Compartilhamento de Artigos",
+    "polaroidImage": "/wireframe/Home.png",
+    "bannerImage": "/wireframe/Home.png",
+    "shortDescription": "Plataforma comunitária para programadores publicarem artigos, criarem snippets de código e interagirem via comentários.",
+    "contextAndChallenge": "Criar um editor de texto no estilo Markdown rico em recursos com visualizador em tempo real e syntax highlighting.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Markdown Parser",
+      "Node.js"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao",
+    "liveUrl": "https://github.com/LucasTameirao",
+    "carouselImages": [
+      {
+        "url": "/wireframe/Home.png",
+        "caption": "Feed de Postagens e Editor de Código"
+      }
+    ]
+  }
+]
