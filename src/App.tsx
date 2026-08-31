@@ -1,6 +1,7 @@
 import React, { useState, useRef, useLayoutEffect } from 'react';
 import { HeroSection } from './components/sections/HeroSection';
 import { ProjectsSection } from './components/sections/ProjectsSection';
+import { ContactSection } from './components/sections/ContactSection';
 import { ProjectDetailsPage } from './components/projects/ProjectDetailsPage';
 import { FluidBackground } from './components/common/FluidBackground';
 import { ProjectItem } from './types/project';
@@ -48,10 +49,11 @@ export const App: React.FC = () => {
             onBack={handleBackToProjects}
           />
         ) : (
-          /* Página Principal: Home + My Projects */
+          /* Página Principal: Home + My Projects + Contact */
           <>
             <HeroSection />
             <ProjectsSection onOpenDetails={handleOpenDetails} />
+            <ContactSection />
           </>
         )}
       </main>
