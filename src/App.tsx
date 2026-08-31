@@ -1,83 +1,68 @@
 import React, { useState } from 'react';
-import { Language } from './types';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Skills } from './components/Skills';
-import { Projects } from './components/Projects';
-import { Experience } from './components/Experience';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { CVModal } from './components/CVModal';
+import { Navbar } from './components/layout/Navbar';
+import { Footer } from './components/layout/Footer';
+import { HeroSection } from './components/sections/HeroSection';
+import { SkillsSection } from './components/sections/SkillsSection';
+import { ProjectsSection } from './components/sections/ProjectsSection';
+import { ContactSection } from './components/sections/ContactSection';
+import { FluidBackground } from './components/common/FluidBackground';
+import { RefreshCw } from 'lucide-react';
 
-export default function App() {
-  const [language, setLanguage] = useState<Language>('pt');
-  const [isCVOpen, setIsCVOpen] = useState(false);
-
-  const toggleLanguage = () => {
-    setLanguage(prev => (prev === 'pt' ? 'en' : 'pt'));
-  };
+export const App: React.FC = () => {
+  const [testCount, setTestCount] = useState(0);
 
   return (
-    <div id="portfolio-app-root" className="min-h-screen bg-slate-950 text-slate-100 flex flex-col relative selection:bg-cyan-500/30 selection:text-cyan-200">
-      {/* Background Radial Glow & Grid Pattern */}
-      <div className="fixed inset-0 bg-grid-pattern opacity-100 pointer-events-none -z-20" />
-      <div className="fixed inset-0 bg-radial-gradient pointer-events-none -z-10" />
+    <div className="min-h-screen text-slate-100 flex flex-col relative selection:bg-orange-500/30 selection:text-orange-200">
+      
+      {/* Background com Gradiente Fluido Animado */}
+      <FluidBackground />
 
-      {/* Main Navigation */}
-      <Navbar 
-        language={language} 
-        onToggleLanguage={toggleLanguage} 
-        onOpenCV={() => setIsCVOpen(true)} 
-      />
+      {/* Top Banner de Ambiente de Teste */}
+      <div className="bg-slate-950/75 backdrop-blur-md border-b border-orange-500/20 px-4 py-2 text-xs text-slate-300 z-50">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <span className="flex h-2 w-2 rounded-full bg-orange-400 animate-ping" />
+            <span className="font-mono font-semibold text-orange-300">PÁGINA HOME INTEGRADA (WIREFRAME + GRADIENTE FLUIDO)</span>
+            <span className="hidden sm:inline text-slate-500">•</span>
+            <span className="hidden md:inline text-slate-400">
+              One-Page Scroll contínuo • Avatar personalizável
+            </span>
+          </div>
 
-      {/* Main Content Sections */}
-      <main className="flex-1 flex flex-col">
-        {/* Hero Section */}
-        <Hero 
-          language={language} 
-          onOpenCV={() => setIsCVOpen(true)} 
-        />
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setTestCount((prev) => prev + 1)}
+              className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-orange-500/20 hover:bg-orange-500/30 border border-orange-500/40 text-orange-200 font-mono text-[11px] transition-colors"
+            >
+              <RefreshCw className={`w-3 h-3 ${testCount > 0 ? 'animate-spin' : ''}`} />
+              React Reativo: <strong>{testCount}</strong>
+            </button>
+          </div>
+        </div>
+      </div>
 
-        {/* About Me Section */}
-        <About 
-          language={language} 
-        />
+      {/* Navbar com links de ancoragem */}
+      <Navbar />
 
-        {/* Skills & Technologies Section */}
-        <Skills 
-          language={language} 
-        />
+      {/* Conteúdo Principal com One-Page Scroll Contínuo */}
+      <main className="flex-grow z-10">
+        {/* Seção Home (Intro + About me + Avatar do Wireframe) */}
+        <HeroSection />
 
-        {/* Featured Projects Section */}
-        <Projects 
-          language={language} 
-        />
+        {/* Seção de Habilidades / Stacks */}
+        <SkillsSection />
 
-        {/* Career & Education Timeline */}
-        <Experience 
-          language={language} 
-        />
+        {/* Seção de Projetos em Destaque */}
+        <ProjectsSection />
 
-        {/* Contact & Direct Channels */}
-        <Contact 
-          language={language} 
-        />
+        {/* Seção de Contato */}
+        <ContactSection />
       </main>
 
-      {/* Footer */}
-      <Footer 
-        language={language} 
-        onOpenCV={() => setIsCVOpen(true)} 
-      />
-
-      {/* Curriculum Vitae Modal */}
-      <CVModal 
-        isOpen={isCVOpen} 
-        language={language} 
-        onClose={() => setIsCVOpen(false)} 
-      />
+      {/* Rodapé */}
+      <Footer />
     </div>
   );
-}
+};
 
+export default App;
