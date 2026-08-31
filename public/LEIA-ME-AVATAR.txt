@@ -1,0 +1,8 @@
+Para colocar sua foto de perfil personalizada no portfólio:
+
+1. Salve sua foto com o nome "avatar.png" (ou "avatar.jpg") aqui nesta pasta "public/".
+2. O arquivo final deve ser: public/avatar.png
+3. A página carregará automaticamente sua imagem no lugar do placeholder circular!
+
+Caso queira usar outro nome de arquivo, basta atualizar o campo "avatar" em:
+src/data/portfolioData.ts
