@@ -1,163 +1,140 @@
 [
   {
-    "id": "portifolio-pessoal",
-    "title": "Portfólio Pessoal",
-    "tagline": "Interface Web Interativa & Fluida",
-    "polaroidImage": "/wireframe/Home.png",
-    "bannerImage": "/wireframe/Home.png",
-    "shortDescription": "Aplicação web moderna desenvolvida em React, TypeScript e Tailwind CSS com estética de gradiente fluido animado e navegação em página única.",
-    "contextAndChallenge": "O objetivo principal deste projeto foi construir uma presença digital única e envolvente para Lucas Tameirão. O desafio consistiu em implementar animações orgânicas fluidas a 60 FPS aceleradas por GPU, mantendo o código modular, acessível e 100% tipado com TypeScript.",
+    "id": "emulation-auto-save",
+    "title": "Emulation Auto Save",
+    "tagline": "Sincronização & Backup Automático de Saves em Nuvem",
+    "polaroidImage": "/src/data/back-end-image.jpg",
+    "bannerImage": "/src/data/back-end-image.jpg",
+    "shortDescription": "Sistema em Python para monitoramento e sincronização automática de arquivos de save de emuladores para o Google Drive em segundo plano.",
+    "contextAndChallenge": "Emuladores salvam o progresso apenas localmente, gerando risco de perda de centenas de horas de jogo por falhas de hardware ou formatação. O desafio central é detectar alterações nos arquivos de save em tempo real e sincronizar de forma transparente e eficiente apenas os dados modificados, mantendo uma arquitetura modular, multiplataforma e conteinerizada.",
     "technologies": [
-      "React 19",
-      "TypeScript",
-      "Tailwind CSS v4",
-      "Vite",
-      "Lucide Icons",
-      "Dev Containers"
-    ],
-    "githubUrl": "https://github.com/LucasTameirao/portifolio_pessoal",
-    "liveUrl": "https://github.com/LucasTameirao/portifolio_pessoal",
-    "carouselImages": [
-      {
-        "url": "/wireframe/Home.png",
-        "caption": "Tela Inicial com Gradiente Fluido e Apresentação"
-      },
-      {
-        "url": "/wireframe/Projects.png",
-        "caption": "Grid de Projetos no formato Polaroid"
-      },
-      {
-        "url": "/wireframe/Project detailed.png",
-        "caption": "Menu Rápido de Pré-visualização do Projeto"
-      },
-      {
-        "url": "/wireframe/Project's details.png",
-        "caption": "Página Completa de Detalhes e Carrossel"
-      }
-    ]
-  },
-  {
-    "id": "gestao-tarefas",
-    "title": "TaskFlow Manager",
-    "tagline": "Sistema de Gestão & Produtividade",
-    "polaroidImage": "/wireframe/Projects.png",
-    "bannerImage": "/wireframe/Projects.png",
-    "shortDescription": "Plataforma completa de produtividade para gerenciamento de sprints, tarefas em equipe e métricas de desempenho em tempo real.",
-    "contextAndChallenge": "Criar uma interface rápida com arrastar-e-soltar (drag-and-drop), sincronização de dados instantânea e relatórios gráficos de entregas e prazos.",
-    "technologies": [
-      "React",
-      "Node.js",
-      "Express",
-      "TypeScript",
-      "PostgreSQL",
-      "Tailwind CSS"
-    ],
-    "githubUrl": "https://github.com/LucasTameirao",
-    "liveUrl": "https://github.com/LucasTameirao",
-    "carouselImages": [
-      {
-        "url": "/wireframe/Projects.png",
-        "caption": "Painel Kanban de Tarefas"
-      },
-      {
-        "url": "/wireframe/Project's details.png",
-        "caption": "Dashboard com Métricas de Produtividade"
-      }
-    ]
-  },
-  {
-    "id": "ecommerce-dashboard",
-    "title": "Analytics Dashboard",
-    "tagline": "Painel Analítico de Vendas",
-    "polaroidImage": "/wireframe/Project detailed.png",
-    "bannerImage": "/wireframe/Project detailed.png",
-    "shortDescription": "Dashboard financeiro e operacional com gráficos interativos, controle de inventário e emissão de relatórios.",
-    "contextAndChallenge": "O desafio foi processar grandes volumes de transações no front-end de forma responsiva e com renderização de gráficos em tempo real.",
-    "technologies": [
-      "React",
-      "Chart.js",
-      "TypeScript",
-      "REST APIs",
-      "CSS3"
-    ],
-    "githubUrl": "https://github.com/LucasTameirao",
-    "liveUrl": "https://github.com/LucasTameirao",
-    "carouselImages": [
-      {
-        "url": "/wireframe/Project detailed.png",
-        "caption": "Visão Geral de Faturamento e Vendas"
-      }
-    ]
-  },
-  {
-    "id": "api-gateway-service",
-    "title": "Cloud API Microservice",
-    "tagline": "Arquitetura Back-end Escalável",
-    "polaroidImage": "/wireframe/Project's details.png",
-    "bannerImage": "/wireframe/Project's details.png",
-    "shortDescription": "Microsserviço de autenticação e roteamento de APIs com cache distribuído em Redis e alta tolerância a falhas.",
-    "contextAndChallenge": "Implementar políticas de Rate Limiting, autenticação via JWT e logs estruturados em ambientes de alta concorrência.",
-    "technologies": [
-      "Node.js",
-      "Express",
-      "Redis",
+      "Python 3.13",
+      "Google Drive API",
       "Docker",
-      "TypeScript"
+      "Dev Containers",
+      "uv",
+      "Pytest",
+      "JSON"
     ],
-    "githubUrl": "https://github.com/LucasTameirao",
-    "liveUrl": "https://github.com/LucasTameirao",
+    "githubUrl": "https://github.com/LucasTameirao/Emulation-Auto-Save",
+    "liveUrl": "https://github.com/LucasTameirao/Emulation-Auto-Save",
     "carouselImages": [
       {
-        "url": "/wireframe/Project's details.png",
-        "caption": "Monitoramento de Rotas e Latência"
+        "url": "/projects/emulation-auto-save/banner.png",
+        "caption": "Arquitetura e Visão Geral do Sistema"
+      },
+      {
+        "url": "/projects/emulation-auto-save/logs.png",
+        "caption": "Monitoramento em Tempo Real e Logs de Sincronização"
+      },
+      {
+        "url": "/projects/emulation-auto-save/config.png",
+        "caption": "Estrutura de Configuração e Mapeamento de Saves"
       }
     ]
   },
   {
-    "id": "mobile-fintech-app",
-    "title": "FinTech Wallet",
-    "tagline": "Carteira Digital & Pagamentos",
-    "polaroidImage": "/wireframe/Contact.png",
-    "bannerImage": "/wireframe/Contact.png",
-    "shortDescription": "Interface focada em experiência do usuário para transferências instantâneas, categorização de gastos e cartões virtuais.",
-    "contextAndChallenge": "Garantir acessibilidade, fluxos simplificados com poucas etapas e animações intuitivas para feedback financeiro.",
+    "id": "pokemon-guess-game",
+    "title": "Pokémon Guess Game",
+    "tagline": "Jogo de Adivinhação & Consumo Dinâmico de API",
+    "polaroidImage": "/src/data/back-end-image.jpg",
+    "bannerImage": "/src/data/back-end-image.jpg",
+    "shortDescription": "Aplicação web interativa inspirada no clássico quadro 'Quem é esse Pokémon?', com geração dinâmica de silhuetas e validação em tempo real.",
+    "contextAndChallenge": "O objetivo foi aprofundar habilidades fundamentais em desenvolvimento front-end sem frameworks. O desafio envolveu consumir uma API externa de forma assíncrona, manipular o DOM para renderizar e ocultar sprites em formato de silhueta, gerenciar eventos do usuário e fornecer feedback visual instantâneo de acerto ou erro em uma interface totalmente responsiva.",
     "technologies": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Figma",
-      "State Management"
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "Fetch API",
+      "DOM Manipulation"
     ],
-    "githubUrl": "https://github.com/LucasTameirao",
-    "liveUrl": "https://github.com/LucasTameirao",
+    "githubUrl": "https://github.com/LucasTameirao/pokemon-guess-game",
+    "liveUrl": "https://github.com/LucasTameirao/pokemon-guess-game",
     "carouselImages": [
       {
-        "url": "/wireframe/Contact.png",
-        "caption": "Extrato Inteligente e Transferências"
+        "url": "/projects/pokemon-guess-game/gameplay-silhouette.png",
+        "caption": "Silhueta Dinâmica para Adivinhação"
+      },
+      {
+        "url": "/projects/pokemon-guess-game/gameplay-reveal.png",
+        "caption": "Revelação do Pokémon e Feedback de Acerto"
+      },
+      {
+        "url": "/projects/pokemon-guess-game/responsive-mobile.png",
+        "caption": "Interface Adaptada para Dispositivos Móveis"
       }
     ]
   },
   {
-    "id": "dev-community-hub",
-    "title": "Dev Community Hub",
-    "tagline": "Rede de Compartilhamento de Artigos",
-    "polaroidImage": "/wireframe/Home.png",
-    "bannerImage": "/wireframe/Home.png",
-    "shortDescription": "Plataforma comunitária para programadores publicarem artigos, criarem snippets de código e interagirem via comentários.",
-    "contextAndChallenge": "Criar um editor de texto no estilo Markdown rico em recursos com visualizador em tempo real e syntax highlighting.",
+    "id": "medcenter",
+    "title": "MedCenter",
+    "tagline": "Sistema de Gestão Hospitalar & Agendamentos",
+    "polaroidImage": "/src/data/intro-devices2.png",
+    "bannerImage": "/src/data/intro-devices2.png",
+    "shortDescription": "Aplicação fullstack para gerenciamento hospitalar completo, incluindo controle de pacientes, médicos, especialidades e fluxo de consultas médicas.",
+    "contextAndChallenge": "Desenvolver um sistema hospitalar integrado e modular aplicando arquitetura em camadas (Controller, Service e Repository). O desafio consistiu em estruturar relacionamentos de entidades complexos no MySQL via Spring Data JPA/Hibernate, construir endpoints RESTful robustos e integrar o front-end para gerenciar agendamentos, status de consultas e cadastros clínicos em tempo real.",
     "technologies": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Markdown Parser",
-      "Node.js"
+      "Java 21",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Hibernate",
+      "MySQL",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST APIs"
     ],
-    "githubUrl": "https://github.com/LucasTameirao",
-    "liveUrl": "https://github.com/LucasTameirao",
+    "githubUrl": "https://github.com/LucasTameirao/MedCenter",
+    "liveUrl": "https://github.com/LucasTameirao/MedCenter",
     "carouselImages": [
       {
-        "url": "/wireframe/Home.png",
-        "caption": "Feed de Postagens e Editor de Código"
+        "url": "/projects/medcenter/dashboard.png",
+        "caption": "Painel de Agendamentos e Gestão de Consultas"
+      },
+      {
+        "url": "/projects/medcenter/cadastro-medicos.png",
+        "caption": "Controle de Médicos e Vinculação de Especialidades"
+      },
+      {
+        "url": "/projects/medcenter/cadastro-pacientes.png",
+        "caption": "Módulo de Cadastro e Consulta de Pacientes"
+      }
+    ]
+  },
+  {
+    "id": "game-journey",
+    "title": "Game Journey",
+    "tagline": "Plataforma de Gestão da Jornada & Backlog Gamer",
+    "polaroidImage": "",
+    "bannerImage": "",
+    "shortDescription": "Sistema web completo para rastreamento de progresso gamer, gerenciamento de backlog, estatísticas de gameplay e integração com catálogo da IGDB.",
+    "contextAndChallenge": "O projeto visa centralizar a biblioteca pessoal e transformar o histórico de jogos em métricas acionáveis (tempo jogado, gêneros favoritos e metas anuais). O desafio técnico envolve a modelagem de microsserviços/módulos independentes com FastAPI, autenticação segura via JWT, versionamento de banco com Alembic e consumo eficiente da API da IGDB com cache para evitar requisições redundantes.",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "Alembic",
+      "JWT",
+      "IGDB API",
+      "React",
+      "Redis"
+    ],
+    "githubUrl": "https://github.com/LucasTameirao/game-journey",
+    "liveUrl": "https://github.com/LucasTameirao/game-journey",
+    "carouselImages": [
+      {
+        "url": "/projects/game-journey/dashboard.png",
+        "caption": "Dashboard com Métricas de Gameplay e Horas Jogadas"
+      },
+      {
+        "url": "/projects/game-journey/library.png",
+        "caption": "Gerenciamento de Biblioteca e Status de Backlog"
+      },
+      {
+        "url": "/projects/game-journey/game-details.png",
+        "caption": "Detalhes do Jogo via IGDB com Reviews e Notas"
       }
     ]
   }

@@ -19,7 +19,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onOpenDetails 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-12 pb-4 border-b border-slate-200">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 tracking-tight">
-              My projects
+              Meus projetos
             </h2>
             <p className="text-sm sm:text-base text-slate-500 mt-1 font-normal">
               Clique em qualquer Polaroid para ver os detalhes completos da aplicação

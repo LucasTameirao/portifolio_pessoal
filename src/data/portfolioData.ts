@@ -4,16 +4,16 @@ export const PERSONAL_INFO = {
   name: 'Lucas Assis Tameirão Martins',
   displayName: 'Lucas',
   role: 'Fullstack Dev',
-  tagline: "Hi, I'm Lucas. Let me introduce myself!",
-  subTagline: "I'm a fullstack dev that loves to make websites to help people resolve their problems.",
-  ctaExploreText: "Come to explore my projects, I bet you'll like!",
+  tagline: "Oi, eu sou o lucas. Deixe eu me apresentar!",
+  subTagline: "Sou um desenvolvedor full stack que adora criar sites para ajudar as pessoas a resolverem seus problemas.",
+  ctaExploreText: "Deixe-me te apresentar os meus projetos. Aposto que vai te interessar!",
   
   // Caminho da foto de perfil:
   // Coloque seu arquivo 'avatar.png' ou 'avatar.jpg' na pasta /public (ou /src/assets/avatar.png)
-  avatar: '/avatar.png', 
+  avatar: '/src/data/foto-de-perfil.jpg', 
 
-  aboutTitle: 'About me',
-  aboutText: `Sou desenvolvedor Full Stack apaixonado por criar experiências digitais fluidas, intuitivas e de alto desempenho. Tenho experiência no ecossistema JavaScript e TypeScript com React, Node.js e Tailwind CSS, transformando ideias em soluções funcionais e elegantes.`,
+  aboutTitle: 'Sobre mim',
+  aboutText: `Sou Desenvolvedor Full Stack com foco em Back-End, apaixonado por criar experiências digitais fluidas, intuitivas e de alto desempenho. Com sólida experiência no ecossistema JavaScript e TypeScript — atuando com React, Node.js e arquiteturas de back-end modernas —, transformo ideias complexas em soluções robustas, escaláveis e elegantes.`,
   
   location: 'Brasil',
   email: 'lucas.atmartins@gmail.com',
